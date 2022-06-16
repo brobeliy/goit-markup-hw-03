@@ -1,0 +1,221 @@
+/* colors for project */
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-color-project: #ffffff;
+  --secondary-color-project: #2196f3;
+  --background-second-color: #2f303a;
+}
+
+
+h1,h2,h3,h4,p,ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* tag body */
+
+body {
+  background-color: var(--main-color-project);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* For document */
+
+.list {
+  list-style: none;
+}
+
+/* CSS Header */
+
+/* webstudio */
+.logo {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+}
+.textweb {
+  color: var(--secondary-color-project);
+}
+
+/* Navigation header */
+
+.header-nav .list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--secondary-color-project);
+}
+
+.list .nav-link.current { 
+  color: var(--secondary-color-project);
+}
+
+.contacts-header {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+.contacts-header:focus,
+.contacts-header:hover {
+  color: var(--secondary-color-project);
+}
+
+/* CSS main HTML */
+
+/* Hero */
+.hero {
+  background-color: var(--background-second-color);
+}
+
+.hero .title {
+  color: var(--main-color-project);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero button {
+  color: var(--main-color-project);
+  background-color: var(--secondary-color-project);
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.hero button:hover,
+.hero button:focus {
+ color: var(--main-color-project);
+ background-color: #188CE8;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* features */
+
+.features .s-title {
+  opacity: 0;
+  /* display: none;*/
+}
+
+.features .list {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.features .title {
+  font-weight: 700;
+ font-size: 14px;
+ text-transform: uppercase;
+  line-height: 1.14;
+  color: var(--main-text-color);
+}
+
+/* what we do  */
+
+.works .title,
+.team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Team  */
+
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team .job {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+/* CSS footer */
+.foot {
+  background-color: var(--background-second-color);
+}
+
+.foot address {
+  font-style: normal;
+}
+.textstudio {
+  color: var(--main-color-project);
+}
+.foot .link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.foot .contact:hover,
+.foot .contact:focus {
+  color: var(--secondary-color-project);
+}
+
+.foot .adress {
+  color: var(--main-color-project);
+}
+
+/* CSS main Portfolio */
+
+.list-button {
+  list-style: none;
+}
+.list-button button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
+}
+
+.list-button button:hover,
+.list-button button:focus {
+  color: var(--main-color-project);
+  background-color: var(--secondary-color-project);
+}
+
+.list-projects {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+  list-style: none;
+}
+
+.list-projects .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
