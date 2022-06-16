@@ -8,10 +8,10 @@
 }
 
 
-h1,h2,h3,h4,p,ul {
+/* h1,h2,h3,h4,p,ul {
   padding: 0;
   margin: 0;
-}
+} */
 
 /* tag body */
 
@@ -28,6 +28,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* CSS Header */
