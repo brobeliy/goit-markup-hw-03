@@ -152,7 +152,6 @@ border-bottom: 1px solid rgba(236, 236, 236, 1);}
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  margin-bottom: 30px;
 }
 
 .hero button {
@@ -171,6 +170,8 @@ border-bottom: 1px solid rgba(236, 236, 236, 1);}
   padding: 10px 32px;
   min-width: 200px;
   border: 0px;
+  margin-top: 30px;
+
 }
 
 .hero button:hover,
@@ -386,7 +387,6 @@ background-color: var(--main-color-project);
 img {
   display: block;
 }
-
 .desc {
   /* width: 370px; */
   padding-top: 20px;
