@@ -5,6 +5,8 @@
   --main-color-project: #ffffff;
   --secondary-color-project: #2196f3;
   --background-second-color: #2f303a;
+  --section-background-color: #F5F4FA
+
 }
 
 h1,
@@ -54,14 +56,15 @@ body {
 
 /* CSS Header */
 /* webstudio */
+header{ 
+border-bottom: 1px solid rgba(236, 236, 236, 1);}
 
 .main-nav {
-  border-bottom: 1px solid rgba(236, 236, 236, 1)
-;
   display: flex;
   align-items: center;
 }
 .logo {
+  display: block;
   color: var(--main-text-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -135,7 +138,7 @@ body {
 
 /* Hero */
 .hero {
-  padding: 200px 452px;
+  padding: 200px 0;
   background-color: var(--background-second-color);
   text-align: center;
 }
@@ -145,10 +148,11 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  margin: 0 auto;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
   margin-bottom: 30px;
-  /* vertical-align: top; */
 }
 
 .hero button {
@@ -216,6 +220,8 @@ body {
 
 /* what we do  */
 
+.works {padding-top: 0;}
+
 .works .list {
   display: flex;
 }
@@ -235,9 +241,15 @@ body {
 
 /* Team  */
 
-.card {
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+.team {background-color: var(--section-background-color);}
+
+.team .item {
+box-shadow: 
+0px 1px 3px rgba(0, 0, 0, 0.12), 
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+background-color: var(--main-color-project);
 }
 .card-desc {
   padding: 30px 0;
@@ -265,14 +277,19 @@ body {
 
 /* CSS footer */
 
-.foot-desc {
-  padding: 60px 0;
-}
 .logo-foot {
+  display: block;
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
   margin-bottom: 20px;
 }
 
 .foot {
+  padding: 60px 0;
   background-color: var(--background-second-color);
 }
 
@@ -309,12 +326,13 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
+  margin-bottom: 34px;
 }
 .list-button .item + .item {
   margin-left: 8px;
 }
 .list-button button {
-  border-color: transparent;
+ border: 0px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -323,7 +341,8 @@ body {
   cursor: pointer;
   color: var(--main-text-color);
   background-color: #f5f4fa;
-  margin-bottom: 34px;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .list-button button:hover,
@@ -364,7 +383,7 @@ body {
   color: var(--main-text-color);
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -372,6 +391,9 @@ body {
   /* width: 370px; */
   padding-top: 20px;
   padding-left: 24px;
-  padding-bottom: 8px;
-  border: 1px solid rgba(238, 238, 238, 1);
+  padding-bottom: 20px;
+  border: 1px solid rgba(238, 238, 238, 1); ;
+  border-top: 0px;
+  
 }
+.desc p {margin-top: 4px;}
